@@ -45,7 +45,6 @@ export default function ForgotPasswordPage() {
         >
           Send Reset Code
             <Link href="/resetpassword" className="font-medium hover:underline">
-            Back to Login
           </Link>
         </button>
 
