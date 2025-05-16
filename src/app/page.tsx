@@ -10,7 +10,7 @@ export default function LoginPage() {
   const router = useRouter();
 
   const domain = process.env.NEXT_PUBLIC_COGNITO_DOMAIN!;
-  const region = process.env.NEXT_PUBLIC_COGNITO_REGION!;
+  // const region = process.env.NEXT_PUBLIC_COGNITO_REGION!;
   const clientId = process.env.NEXT_PUBLIC_COGNITO_CLIENT_ID!;
 
   const redirectUri = encodeURIComponent(process.env.NEXT_PUBLIC_COGNITO_REDIRECT_URI!);
