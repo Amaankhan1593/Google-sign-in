@@ -44,6 +44,9 @@ export default function ForgotPasswordPage() {
           className="w-full py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors duration-300"
         >
           Send Reset Code
+            <Link href="/resetpassword" className="font-medium hover:underline">
+            Back to Login
+          </Link>
         </button>
 
         {msg && <p className="text-center text-sm text-red-600">{msg}</p>}
