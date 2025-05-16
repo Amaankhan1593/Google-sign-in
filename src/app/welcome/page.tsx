@@ -15,7 +15,7 @@ export default async function WelcomePage() {
         <h1 className="text-3xl font-bold text-gray-800 mb-4">Welcome, {name}!</h1>
         <p className="text-gray-600 mb-6">You have successfully logged in.</p>
         <Link
-          href="/api/auth/logout"
+          href="/"
           className="inline-block bg-red-500 text-white px-6 py-2 rounded-md hover:bg-red-600 transition"
         >
           Sign Out
