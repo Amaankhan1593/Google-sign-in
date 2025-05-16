@@ -7,7 +7,7 @@ export async function GET() {
   const token = cookieStore.get("accessToken")?.value;
 
   const domain = process.env.NEXT_PUBLIC_COGNITO_DOMAIN!;
-  const region = process.env.NEXT_PUBLIC_COGNITO_REGION!;
+  //const region = process.env.NEXT_PUBLIC_COGNITO_REGION!;
   const clientId = process.env.NEXT_PUBLIC_COGNITO_CLIENT_ID!;
   const appBaseUrl = process.env.NEXT_PUBLIC_APP_BASE_URL!;
 
