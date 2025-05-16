@@ -38,7 +38,7 @@ export default function LoginPage() {
   };
 
   const buildHostedUIUrl = (provider: string) =>
-    `https://${domain}.auth.${region}.amazoncognito.com/oauth2/authorize` +
+    `https://${domain}/oauth2/authorize` +
     `?identity_provider=${provider}` +
     `&redirect_uri=${redirectUri}` +
     `&response_type=code` +
