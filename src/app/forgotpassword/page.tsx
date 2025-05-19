@@ -51,7 +51,7 @@ export default function ForgotPasswordPage() {
         {msg && <p className="text-center text-sm text-red-600">{msg}</p>}
 
         <div className="text-center text-sm text-indigo-600 mt-6">
-          <Link href="/" className="font-medium hover:underline">
+          <Link href="/login" className="font-medium hover:underline">
             Back to Login
           </Link>
         </div>
